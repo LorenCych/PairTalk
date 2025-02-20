@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application
+    x:Class="CRDChatApp.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CRDChatApp"
+    RequestedTheme="Dark">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+                <!-- Other merged dictionaries here -->
+            </ResourceDictionary.MergedDictionaries>
+            <!-- Other app resources here -->
+
+            <!-- Define a SolidColorBrush using another resource -->
+            <SolidColorBrush x:Key="LocalUserProfileBackgroundColor" Color="BlueViolet" />
+            <SolidColorBrush x:Key="RemoteUserProfileBackgroundColor" Color="OrangeRed" />
+            <SolidColorBrush x:Key="InactiveUserProfileBackgroundColor" Color="DarkSlateGray" />
+
+            <!-- Define the style for PersonPicture -->
+            <!-- Define the style for PersonPicture -->
+            <Style x:Key="InactiveRemoteUserProfileStyle" TargetType="PersonPicture">
+                <Setter Property="Background" Value="{StaticResource InactiveUserProfileBackgroundColor}" />
+                <Setter Property="Margin" Value="0,0,5,0" />
+                <Setter Property="Width" Value="32" />
+                <Setter Property="Height" Value="32" />
+            </Style>
+
+            <Style x:Key="ActiveRemoteUserProfileStyle" TargetType="PersonPicture">
+                <Setter Property="Background" Value="{StaticResource RemoteUserProfileBackgroundColor}" />
+                <Setter Property="Margin" Value="0,0,5,0" />
+                <Setter Property="Width" Value="45" />
+                <Setter Property="Height" Value="45" />
+            </Style>
+
+            <Style x:Key="InactiveLocalUserProfileStyle" TargetType="PersonPicture">
+                <Setter Property="Background" Value="{StaticResource InactiveUserProfileBackgroundColor}" />
+                <Setter Property="Margin" Value="0,0,5,0" />
+                <Setter Property="Width" Value="32" />
+                <Setter Property="Height" Value="32" />
+            </Style>
+
+            <Style x:Key="ActiveLocalUserProfileStyle" TargetType="PersonPicture">
+                <Setter Property="Background" Value="{StaticResource LocalUserProfileBackgroundColor}" />
+                <Setter Property="Margin" Value="0,0,5,0" />
+                <Setter Property="Width" Value="45" />
+                <Setter Property="Height" Value="45" />
+            </Style>
+
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+

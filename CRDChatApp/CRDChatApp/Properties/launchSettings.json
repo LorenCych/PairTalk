@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CRDChatApp (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "CRDChatApp (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
