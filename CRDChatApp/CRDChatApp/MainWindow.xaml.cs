@@ -20,6 +20,7 @@ using AppUIBasics.Helper;
 using Windows.Graphics;
 using System.Runtime.InteropServices;
 using WinRT.Interop;
+using Microsoft.UI.Text;
 
 
 
@@ -132,6 +133,18 @@ namespace CRDChatApp
 					Margin = new Thickness(5)
 				};
 
+
+				// Create the TextBlock for the timestamp
+				TextBlock timestamp = new TextBlock
+				{
+					Text = DateTime.Now.ToShortTimeString(),
+					FontSize = 9, // Smaller font for the timestamp
+					FontFamily = new FontFamily("Segoe UI"),
+					FontWeight = FontWeights.Thin,
+					Foreground = new SolidColorBrush(Microsoft.UI.Colors.CornflowerBlue), // Gray color for the timestamp
+					HorizontalAlignment = HorizontalAlignment.Right // Align to the right
+				};
+
 				// Create the PersonPicture for the avatar based on current user
 				PersonPicture avatar = new PersonPicture();
 				if (currentUser == "Local")
@@ -139,12 +152,14 @@ namespace CRDChatApp
 					avatar.Style = (Style)Application.Current.Resources["ActiveLocalUserProfileStyle"];
 					avatar.DisplayName = "Kim Younghoon"; // Optionally, set the display name
 					avatar.Margin = new Thickness(5);
+					timestamp.Foreground = new SolidColorBrush(Microsoft.UI.Colors.DeepSkyBlue);
 				}
 				else
 				{
 					avatar.Style = (Style)Application.Current.Resources["ActiveRemoteUserProfileStyle"];
 					avatar.DisplayName = "Lee Juyeon"; // Optionally, set the display name
 					avatar.Margin = new Thickness(5);
+					timestamp.Foreground = new SolidColorBrush(Microsoft.UI.Colors.CornflowerBlue);
 				}
 				avatar.Width = 32;
 				avatar.Height = 32;
@@ -157,7 +172,13 @@ namespace CRDChatApp
 					BorderBrush = (Brush)Application.Current.Resources["SurfaceStrokeColorDefaultBrush"], // Optional border color
 					BorderThickness = new Microsoft.UI.Xaml.Thickness(1), // Optional border thickness
 					CornerRadius = new Microsoft.UI.Xaml.CornerRadius(10), // Optional rounded corners
-					Padding = new Microsoft.UI.Xaml.Thickness(10) // Optional padding inside the border
+					Padding = new Microsoft.UI.Xaml.Thickness(8) // Optional padding inside the border
+				};
+
+				// Create a StackPanel to wrap the message and the timestamp
+				StackPanel messageContentPanel = new StackPanel
+				{
+					Orientation = Orientation.Vertical // Make it vertical so the timestamp appears below the message
 				};
 
 				// Create the TextBlock with the message
@@ -165,8 +186,19 @@ namespace CRDChatApp
 				{
 					Text = message,
 					TextWrapping = TextWrapping.Wrap, // Ensures text will wrap within the available width
-					MaxWidth = 295 // Optional: Set a max width to prevent text from becoming too wide
+					MaxWidth = 295, // Optional: Set a max width to prevent text from becoming too wide
+					IsTextSelectionEnabled = true,
+					SelectionHighlightColor = new SolidColorBrush(Microsoft.UI.Colors.DarkOrange)
 				};
+
+			
+
+				// Add the message text and timestamp to the vertical StackPanel
+				messageContentPanel.Children.Add(messageText);
+				messageContentPanel.Children.Add(timestamp);
+
+				// Set the vertical StackPanel as the child of the Border
+				messageBorder.Child = messageContentPanel;
 
 				// Set background and text color based on the user
 				if (currentUser == "Local")
@@ -177,6 +209,7 @@ namespace CRDChatApp
 					messagePanel.HorizontalAlignment = HorizontalAlignment.Right; // Align to the right for Local User
 					messagePanel.Children.Add(messageBorder); // Insert message before avatar
 					messagePanel.Children.Add(avatar); // Insert avatar at the end
+			
 				}
 				else if (currentUser == "Remote")
 				{
@@ -188,7 +221,7 @@ namespace CRDChatApp
 				}
 
 				// Set the TextBlock as the child of the Border
-				messageBorder.Child = messageText;
+				messageBorder.Child = messageContentPanel;
 
 				// Add the StackPanel to the main panel
 				MessagePanel.Children.Add(messagePanel);

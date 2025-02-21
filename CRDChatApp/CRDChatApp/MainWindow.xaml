@@ -28,7 +28,7 @@
         </Grid.ColumnDefinitions>
 
         <!-- Custom Title Bar -->
-        <Grid x:Name="AppTitleBar" Height="48" Margin="0,16,0,0">
+        <Grid x:Name="AppTitleBar" Height="48" Margin="0,16,0,0" Padding="8,8,8,0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition x:Name="LeftPaddingColumn" Width="0"/>
                 <ColumnDefinition x:Name="IconColumn" Width="Auto"/>
@@ -38,6 +38,7 @@
                 <ColumnDefinition x:Name="AccountColumn" Width="Auto"/>
                 <ColumnDefinition x:Name="RightPaddingColumn" Width="0"/>
                 <ColumnDefinition x:Name="ToggleButtonColumn" Width="Auto"/>
+                <ColumnDefinition x:Name="SettingsButtonColumn" Width="Auto"/>
             </Grid.ColumnDefinitions>
 
             <Image x:Name="TitleBarIcon" 
@@ -51,7 +52,7 @@
                        VerticalAlignment="Center"/>
             
             <ToggleButton x:Name="PinToggleButton" 
-                          Grid.Column="8"
+                          Grid.Column="7"
                           Style="{StaticResource WindowChromeStyle}"
                           Checked="PinToggleButton_Checked" 
                           Unchecked="PinToggleButton_Unchecked" 
@@ -67,7 +68,53 @@
                        ToolTipService.ToolTip="Pin this window"/>
                 </ToggleButton.Content>
             </ToggleButton>
-            
+
+            <Button Grid.Column="8"
+                    Margin="0,0,10,0"
+                    Style="{StaticResource WindowChromeStyle}">
+                <Button.Content>
+                    <FontIcon
+                        x:Name="PinIcon2"
+                        Glyph="&#xE712;"
+                        FontSize="12"
+                        ToolTipService.ToolTip="Change theme colors and edit profiles."/>
+                </Button.Content>
+
+                <Button.Flyout>
+                    <MenuFlyout>
+                        <RadioMenuFlyoutItem Text="Light Mode" GroupName="AppTheme">
+                            <RadioMenuFlyoutItem.Icon>
+                                <FontIcon Glyph="&#xE793;"/>
+                            </RadioMenuFlyoutItem.Icon>
+                            <RadioMenuFlyoutItem.KeyboardAccelerators>
+                                <KeyboardAccelerator Key="L" Modifiers="Control"/>
+                            </RadioMenuFlyoutItem.KeyboardAccelerators>
+                        </RadioMenuFlyoutItem>
+                        <RadioMenuFlyoutItem Text="Dark Mode" GroupName="AppTheme">
+                            <RadioMenuFlyoutItem.Icon>
+                                <FontIcon Glyph="&#xEC46;"/>
+                            </RadioMenuFlyoutItem.Icon>
+                            <RadioMenuFlyoutItem.KeyboardAccelerators>
+                                <KeyboardAccelerator Key="D" Modifiers="Control"/>
+                            </RadioMenuFlyoutItem.KeyboardAccelerators>
+                        </RadioMenuFlyoutItem>
+                        <MenuFlyoutSeparator/>
+                        <MenuFlyoutItem Text="Set Profiles">
+                            <MenuFlyoutItem.Icon>
+                                <FontIcon Glyph="&#xE72D;"/>
+                            </MenuFlyoutItem.Icon>
+                            <MenuFlyoutItem.KeyboardAccelerators>
+                                <KeyboardAccelerator Key="Delete" />
+                            </MenuFlyoutItem.KeyboardAccelerators>
+                        </MenuFlyoutItem>
+                        <MenuFlyoutSeparator/>
+                        <MenuFlyoutItem Text="Rename"/>
+                        <MenuFlyoutItem Text="Select"/>
+                    </MenuFlyout>
+                </Button.Flyout>
+
+            </Button>
+
         </Grid>
 
         <!-- Top Panel for Avatars and Pin/Unpin Toggle -->
@@ -84,12 +131,12 @@
 
             <!-- Avatars -->
             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
-                <PersonPicture
+            <PersonPicture
             x:Name="RemoteUserProfile"
             DisplayName="Lee Juyeon"
             Style="{StaticResource InactiveRemoteUserProfileStyle}" />
 
-                <PersonPicture
+            <PersonPicture
             x:Name="LocalUserProfile"
             DisplayName="Kim Younghoon"
             Style="{StaticResource ActiveLocalUserProfileStyle}" />
@@ -118,21 +165,25 @@
                      KeyDown="MessageTextBox_KeyDown"
             />
 
-            
             <Button x:Name="SendButton" Grid.Column="1" Click="SendMessage"
                     Style="{StaticResource DefaultButtonStyle}"
                     Margin="0,0,6,0"> <!-- Padding: Left, Top, Right, Bottom --> 
+                
                 <Button.Content>
-                    <FontIcon Glyph="&#xE724;" />
+                    <FontIcon Glyph="&#xE724;"
+                              ToolTipService.ToolTip="Press Enter to send message."/>
                 </Button.Content>
             </Button>
 
             <ToggleButton x:Name="UserSwitchButton" Grid.Column="2" Click="UserSwitchButton_Click"
-          Style="{StaticResource DefaultToggleButtonStyle}">
+                          Style="{StaticResource DefaultToggleButtonStyle}">
                 <ToggleButton.Content>
                     <FontIcon Glyph="&#xE748;" Foreground="White"
-                              ToolTipService.ToolTip="Ctrl + Enter to switch user."/>
+                              ToolTipService.ToolTip="Ctrl + S to switch user."/>
                 </ToggleButton.Content>
+                <ToggleButton.KeyboardAccelerators>
+                    <KeyboardAccelerator Key="S" Modifiers="Control"/>
+                </ToggleButton.KeyboardAccelerators>
             </ToggleButton>
         </Grid>
     </Grid>

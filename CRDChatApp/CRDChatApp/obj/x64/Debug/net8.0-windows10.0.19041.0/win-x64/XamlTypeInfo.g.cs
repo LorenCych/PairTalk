@@ -226,7 +226,7 @@ namespace CRDChatApp.CRDChatApp_XamlTypeInfo
         
         private void InitTypeTables()
         {
-            _typeNameTable = new string[18];
+            _typeNameTable = new string[21];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -241,12 +241,15 @@ namespace CRDChatApp.CRDChatApp_XamlTypeInfo
             _typeNameTable[11] = "Microsoft.UI.Xaml.DependencyObject";
             _typeNameTable[12] = "Microsoft.UI.Xaml.Media.DesktopAcrylicBackdrop";
             _typeNameTable[13] = "Microsoft.UI.Xaml.Media.SystemBackdrop";
-            _typeNameTable[14] = "CRDChatApp.MainWindow";
-            _typeNameTable[15] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[16] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[17] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[14] = "Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem";
+            _typeNameTable[15] = "Microsoft.UI.Xaml.Controls.MenuFlyoutItem";
+            _typeNameTable[16] = "Microsoft.UI.Xaml.Controls.MenuFlyoutSubItem";
+            _typeNameTable[17] = "CRDChatApp.MainWindow";
+            _typeNameTable[18] = "Microsoft.UI.Xaml.Window";
+            _typeNameTable[19] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[20] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
 
-            _typeTable = new global::System.Type[18];
+            _typeTable = new global::System.Type[21];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -261,10 +264,13 @@ namespace CRDChatApp.CRDChatApp_XamlTypeInfo
             _typeTable[11] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
             _typeTable[12] = typeof(global::Microsoft.UI.Xaml.Media.DesktopAcrylicBackdrop);
             _typeTable[13] = typeof(global::Microsoft.UI.Xaml.Media.SystemBackdrop);
-            _typeTable[14] = typeof(global::CRDChatApp.MainWindow);
-            _typeTable[15] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[16] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[17] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[14] = typeof(global::Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem);
+            _typeTable[15] = typeof(global::Microsoft.UI.Xaml.Controls.MenuFlyoutItem);
+            _typeTable[16] = typeof(global::Microsoft.UI.Xaml.Controls.MenuFlyoutSubItem);
+            _typeTable[17] = typeof(global::CRDChatApp.MainWindow);
+            _typeTable[18] = typeof(global::Microsoft.UI.Xaml.Window);
+            _typeTable[19] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[20] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -303,16 +309,18 @@ namespace CRDChatApp.CRDChatApp_XamlTypeInfo
         private object Activate_4_PersonPicture() { return new global::Microsoft.UI.Xaml.Controls.PersonPicture(); }
         private object Activate_9_Contact() { return new global::Windows.ApplicationModel.Contacts.Contact(); }
         private object Activate_12_DesktopAcrylicBackdrop() { return new global::Microsoft.UI.Xaml.Media.DesktopAcrylicBackdrop(); }
-        private object Activate_14_MainWindow() { return new global::CRDChatApp.MainWindow(); }
-        private object Activate_16_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_14_RadioMenuFlyoutItem() { return new global::Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem(); }
+        private object Activate_17_MainWindow() { return new global::CRDChatApp.MainWindow(); }
+        private object Activate_19_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
         private void StaticInitializer_4_PersonPicture() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.PersonPicture).TypeHandle);
         private void StaticInitializer_9_Contact() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Windows.ApplicationModel.Contacts.Contact).TypeHandle);
         private void StaticInitializer_10_PersonPictureTemplateSettings() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.PersonPictureTemplateSettings).TypeHandle);
         private void StaticInitializer_12_DesktopAcrylicBackdrop() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Media.DesktopAcrylicBackdrop).TypeHandle);
-        private void StaticInitializer_14_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CRDChatApp.MainWindow).TypeHandle);
-        private void StaticInitializer_16_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
-        private void StaticInitializer_17_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+        private void StaticInitializer_14_RadioMenuFlyoutItem() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem).TypeHandle);
+        private void StaticInitializer_17_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::CRDChatApp.MainWindow).TypeHandle);
+        private void StaticInitializer_19_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
+        private void StaticInitializer_20_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -320,7 +328,7 @@ namespace CRDChatApp.CRDChatApp_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_17_IList(object instance, object item)
+        private void VectorAdd_20_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -421,22 +429,40 @@ namespace CRDChatApp.CRDChatApp_XamlTypeInfo
                 xamlType = new global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 14:   //  CRDChatApp.MainWindow
+            case 14:   //  Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem
+                userType = new global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.MenuFlyoutItem"));
+                userType.Activator = Activate_14_RadioMenuFlyoutItem;
+                userType.StaticInitializer = StaticInitializer_14_RadioMenuFlyoutItem;
+                userType.AddMemberName("GroupName");
+                userType.AddMemberName("IsChecked");
+                userType.AddMemberName("AreCheckStatesEnabled");
+                xamlType = userType;
+                break;
+
+            case 15:   //  Microsoft.UI.Xaml.Controls.MenuFlyoutItem
+                xamlType = new global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 16:   //  Microsoft.UI.Xaml.Controls.MenuFlyoutSubItem
+                xamlType = new global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 17:   //  CRDChatApp.MainWindow
                 userType = new global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
-                userType.Activator = Activate_14_MainWindow;
-                userType.StaticInitializer = StaticInitializer_14_MainWindow;
+                userType.Activator = Activate_17_MainWindow;
+                userType.StaticInitializer = StaticInitializer_17_MainWindow;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 15:   //  Microsoft.UI.Xaml.Window
+            case 18:   //  Microsoft.UI.Xaml.Window
                 xamlType = new global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 16:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 19:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_16_TreeViewNode;
-                userType.StaticInitializer = StaticInitializer_16_TreeViewNode;
+                userType.Activator = Activate_19_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_19_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -448,10 +474,10 @@ namespace CRDChatApp.CRDChatApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 17:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 20:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_17_IList;
-                userType.CollectionAdd = VectorAdd_17_IList;
+                userType.StaticInitializer = StaticInitializer_20_IList;
+                userType.CollectionAdd = VectorAdd_20_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
@@ -629,52 +655,80 @@ namespace CRDChatApp.CRDChatApp_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.PersonPicture)instance;
             return that.TemplateSettings;
         }
-        private object get_12_TreeViewNode_Children(object instance)
+        private object get_12_RadioMenuFlyoutItem_GroupName(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem)instance;
+            return that.GroupName;
+        }
+        private void set_12_RadioMenuFlyoutItem_GroupName(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem)instance;
+            that.GroupName = (global::System.String)Value;
+        }
+        private object get_13_RadioMenuFlyoutItem_IsChecked(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem)instance;
+            return that.IsChecked;
+        }
+        private void set_13_RadioMenuFlyoutItem_IsChecked(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem)instance;
+            that.IsChecked = (global::System.Boolean)Value;
+        }
+        private object get_14_RadioMenuFlyoutItem_AreCheckStatesEnabled(object instance)
+        {
+            return global::Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem.GetAreCheckStatesEnabled((global::Microsoft.UI.Xaml.Controls.MenuFlyoutSubItem)instance);
+        }
+        private void set_14_RadioMenuFlyoutItem_AreCheckStatesEnabled(object instance, object Value)
+        {
+            global::Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem.SetAreCheckStatesEnabled((global::Microsoft.UI.Xaml.Controls.MenuFlyoutSubItem)instance, (global::System.Boolean)Value);
+        }
+        private object get_15_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_13_TreeViewNode_Content(object instance)
+        private object get_16_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_13_TreeViewNode_Content(object instance, object Value)
+        private void set_16_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_14_TreeViewNode_Depth(object instance)
+        private object get_17_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_15_TreeViewNode_HasChildren(object instance)
+        private object get_18_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_16_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_19_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_16_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_19_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_17_TreeViewNode_IsExpanded(object instance)
+        private object get_20_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_17_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_20_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_18_TreeViewNode_Parent(object instance)
+        private object get_21_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -770,50 +824,73 @@ namespace CRDChatApp.CRDChatApp_XamlTypeInfo
                 xamlMember.Getter = get_11_PersonPicture_TemplateSettings;
                 xamlMember.SetIsReadOnly();
                 break;
+            case "Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem.GroupName":
+                userType = (global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem");
+                xamlMember = new global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlMember(this, "GroupName", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_12_RadioMenuFlyoutItem_GroupName;
+                xamlMember.Setter = set_12_RadioMenuFlyoutItem_GroupName;
+                break;
+            case "Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem.IsChecked":
+                userType = (global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem");
+                xamlMember = new global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlMember(this, "IsChecked", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_13_RadioMenuFlyoutItem_IsChecked;
+                xamlMember.Setter = set_13_RadioMenuFlyoutItem_IsChecked;
+                break;
+            case "Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem.AreCheckStatesEnabled":
+                userType = (global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem");
+                xamlMember = new global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlMember(this, "AreCheckStatesEnabled", "Boolean");
+                xamlMember.SetTargetTypeName("Microsoft.UI.Xaml.Controls.MenuFlyoutSubItem");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.SetIsAttachable();
+                xamlMember.Getter = get_14_RadioMenuFlyoutItem_AreCheckStatesEnabled;
+                xamlMember.Setter = set_14_RadioMenuFlyoutItem_AreCheckStatesEnabled;
+                break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_12_TreeViewNode_Children;
+                xamlMember.Getter = get_15_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_13_TreeViewNode_Content;
-                xamlMember.Setter = set_13_TreeViewNode_Content;
+                xamlMember.Getter = get_16_TreeViewNode_Content;
+                xamlMember.Setter = set_16_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_14_TreeViewNode_Depth;
+                xamlMember.Getter = get_17_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_15_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_18_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_16_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_16_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_19_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_19_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_17_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_17_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_20_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_20_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::CRDChatApp.CRDChatApp_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_18_TreeViewNode_Parent;
+                xamlMember.Getter = get_21_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             }

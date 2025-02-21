@@ -1,1 +1,1 @@
-C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\CRDChatApp.csproj;x64
+C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\CRDChatApp.csproj;x64

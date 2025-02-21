@@ -10,31 +10,31 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>91aa1228-d921-4632-b54a-064b77502aa4</PackageIdentityName>
     <PackageIdentityPublisher>CN=loren</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath></WindowsSdkPath>
-    <LayoutDir>C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CRDChatApp.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CRDChatApp.runtimeconfig.json">
       <PackagePath>CRDChatApp.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CRDChatApp.dll">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CRDChatApp.dll">
       <PackagePath>CRDChatApp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>CRDChatApp.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\loren\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x64\native\WebView2Loader.dll">
@@ -652,163 +652,163 @@
     <AppxPackagedFile Include="C:\Users\loren\.nuget\packages\microsoft.web.webview2\1.0.2651.64\lib_manual\net6.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CRDChatApp.deps.json">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CRDChatApp.deps.json">
       <PackagePath>CRDChatApp.deps.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\StoreLogo.backup.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\StoreLogo.backup.png">
       <PackagePath>Assets\StoreLogo.backup.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\loren\source\repos\CRDChatApp\CRDChatApp\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
