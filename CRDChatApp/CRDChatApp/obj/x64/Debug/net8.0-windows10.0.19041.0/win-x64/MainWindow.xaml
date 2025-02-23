@@ -14,7 +14,7 @@
         <DesktopAcrylicBackdrop />
     </Window.SystemBackdrop>
 
-    <Grid MaxWidth="750">
+    <Grid x:ConnectionId='2' MaxWidth="750" x:Name="MainAppPage">
         <!-- Define Rows and Columns -->
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -28,30 +28,30 @@
         </Grid.ColumnDefinitions>
 
         <!-- Custom Title Bar -->
-        <Grid x:ConnectionId='2' x:Name="AppTitleBar" Height="48" Margin="0,16,0,0" Padding="8,8,8,0">
+        <Grid x:ConnectionId='3' x:Name="AppTitleBar" Height="48" Margin="0,16,0,0" Padding="8,8,8,0">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition x:ConnectionId='10' x:Name="LeftPaddingColumn" Width="0"/>
-                <ColumnDefinition x:ConnectionId='11' x:Name="IconColumn" Width="Auto"/>
-                <ColumnDefinition x:ConnectionId='12' x:Name="TitleColumn" Width="Auto"/>
-                <ColumnDefinition x:ConnectionId='13' x:Name="LeftDragColumn" Width="*"/>
-                <ColumnDefinition x:ConnectionId='14' x:Name="RightDragColumn" Width="*" MinWidth="48"/>
-                <ColumnDefinition x:ConnectionId='15' x:Name="AccountColumn" Width="Auto"/>
-                <ColumnDefinition x:ConnectionId='16' x:Name="RightPaddingColumn" Width="0"/>
-                <ColumnDefinition x:ConnectionId='17' x:Name="ToggleButtonColumn" Width="Auto"/>
-                <ColumnDefinition x:ConnectionId='18' x:Name="SettingsButtonColumn" Width="Auto"/>
+                <ColumnDefinition x:ConnectionId='11' x:Name="LeftPaddingColumn" Width="0"/>
+                <ColumnDefinition x:ConnectionId='12' x:Name="IconColumn" Width="Auto"/>
+                <ColumnDefinition x:ConnectionId='13' x:Name="TitleColumn" Width="Auto"/>
+                <ColumnDefinition x:ConnectionId='14' x:Name="LeftDragColumn" Width="*"/>
+                <ColumnDefinition x:ConnectionId='15' x:Name="RightDragColumn" Width="*" MinWidth="48"/>
+                <ColumnDefinition x:ConnectionId='16' x:Name="AccountColumn" Width="Auto"/>
+                <ColumnDefinition x:ConnectionId='17' x:Name="RightPaddingColumn" Width="0"/>
+                <ColumnDefinition x:ConnectionId='18' x:Name="ToggleButtonColumn" Width="Auto"/>
+                <ColumnDefinition x:ConnectionId='19' x:Name="SettingsButtonColumn" Width="Auto"/>
             </Grid.ColumnDefinitions>
 
-            <Image x:ConnectionId='19' x:Name="TitleBarIcon" 
+            <Image x:ConnectionId='20' x:Name="TitleBarIcon" 
                    Source="ms-appx:///Assets/StoreLogo.png"
                    Grid.Column="1"
                    Width="16" Height="16"
                    Margin="8,0,4,0"/>
-            <TextBlock x:ConnectionId='20' x:Name="TitleBarTextBlock"
+            <TextBlock x:ConnectionId='21' x:Name="TitleBarTextBlock"
                        Style="{StaticResource CaptionTextBlockStyle}"
                        Grid.Column="2"
                        VerticalAlignment="Center"/>
             
-            <ToggleButton x:ConnectionId='21' x:Name="PinToggleButton" 
+            <ToggleButton x:ConnectionId='22' x:Name="PinToggleButton" 
                           Grid.Column="7"
                           Style="{StaticResource WindowChromeStyle}"
                                                             
@@ -61,7 +61,7 @@
                           Width="36"
                           Height="36">
                 <ToggleButton.Content>
-                    <FontIcon x:ConnectionId='23'
+                    <FontIcon x:ConnectionId='27'
                        x:Name="PinIcon"
                        Glyph="&#xE718;"
                        FontSize="12"
@@ -73,7 +73,7 @@
                     Margin="0,0,10,0"
                     Style="{StaticResource WindowChromeStyle}">
                 <Button.Content>
-                    <FontIcon x:ConnectionId='22'
+                    <FontIcon x:ConnectionId='23'
                         x:Name="PinIcon2"
                         Glyph="&#xE712;"
                         FontSize="12"
@@ -82,7 +82,8 @@
 
                 <Button.Flyout>
                     <MenuFlyout>
-                        <RadioMenuFlyoutItem Text="Light Mode" GroupName="AppTheme">
+                        <RadioMenuFlyoutItem x:ConnectionId='24' x:Name ="RadioLightMode" Text="Light Mode" GroupName="AppTheme"
+                                             IsChecked="False"                       >
                             <RadioMenuFlyoutItem.Icon>
                                 <FontIcon Glyph="&#xE793;"/>
                             </RadioMenuFlyoutItem.Icon>
@@ -90,7 +91,8 @@
                                 <KeyboardAccelerator Key="L" Modifiers="Control"/>
                             </RadioMenuFlyoutItem.KeyboardAccelerators>
                         </RadioMenuFlyoutItem>
-                        <RadioMenuFlyoutItem Text="Dark Mode" GroupName="AppTheme">
+                        <RadioMenuFlyoutItem x:ConnectionId='25' x:Name="RadioDarkMode" Text="Dark Mode" GroupName="AppTheme"
+                                             IsChecked="True"                       >
                             <RadioMenuFlyoutItem.Icon>
                                 <FontIcon Glyph="&#xEC46;"/>
                             </RadioMenuFlyoutItem.Icon>
@@ -101,15 +103,14 @@
                         <MenuFlyoutSeparator/>
                         <MenuFlyoutItem Text="Set Profiles">
                             <MenuFlyoutItem.Icon>
-                                <FontIcon Glyph="&#xE72D;"/>
+                                <FontIcon Glyph="&#xE77B;"/>
                             </MenuFlyoutItem.Icon>
-                            <MenuFlyoutItem.KeyboardAccelerators>
-                                <KeyboardAccelerator Key="Delete" />
-                            </MenuFlyoutItem.KeyboardAccelerators>
                         </MenuFlyoutItem>
-                        <MenuFlyoutSeparator/>
-                        <MenuFlyoutItem Text="Rename"/>
-                        <MenuFlyoutItem Text="Select"/>
+                        <MenuFlyoutItem x:ConnectionId='26' x:Name="BtnClearChat" Text="Clear Chat"                           >
+                            <MenuFlyoutItem.Icon>
+                                <FontIcon Glyph="&#xECC9;"/>
+                            </MenuFlyoutItem.Icon>
+                        </MenuFlyoutItem>
                     </MenuFlyout>
                 </Button.Flyout>
 
@@ -131,12 +132,12 @@
 
             <!-- Avatars -->
             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
-            <PersonPicture x:ConnectionId='8'
+            <PersonPicture x:ConnectionId='9'
             x:Name="RemoteUserProfile"
             DisplayName="Lee Juyeon"
             Style="{StaticResource InactiveRemoteUserProfileStyle}" />
 
-            <PersonPicture x:ConnectionId='9'
+            <PersonPicture x:ConnectionId='10'
             x:Name="LocalUserProfile"
             DisplayName="Kim Younghoon"
             Style="{StaticResource ActiveLocalUserProfileStyle}" />
@@ -144,8 +145,8 @@
         </Grid>
 
         <!-- Chat Area -->
-        <ScrollViewer x:ConnectionId='3' x:Name="ChatScrollViewer" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Margin="10">
-            <StackPanel x:ConnectionId='7' x:Name="MessagePanel"/>
+        <ScrollViewer x:ConnectionId='4' x:Name="ChatScrollViewer" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Margin="10">
+            <StackPanel x:ConnectionId='8' x:Name="MessagePanel"/>
         </ScrollViewer>
 
         <!-- Message Input Area -->
@@ -156,7 +157,7 @@
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
 
-            <TextBox x:ConnectionId='4' x:Name="MessageTextBox"
+            <TextBox x:ConnectionId='5' x:Name="MessageTextBox"
                      Grid.Column="0"
                      PlaceholderText="Type a message..."
                      Margin="0,0,5,0"
@@ -165,18 +166,21 @@
                                                      
             />
 
-            <Button x:ConnectionId='5' x:Name="SendButton" Grid.Column="1"                    
+            <Button x:ConnectionId='6' x:Name="SendButton" Grid.Column="1"                    
                     Style="{StaticResource DefaultButtonStyle}"
                     Margin="0,0,6,0"> <!-- Padding: Left, Top, Right, Bottom --> 
+                
                 <Button.Content>
-                    <FontIcon Glyph="&#xE724;" />
+                    <FontIcon Glyph="&#xE724;"
+                              ToolTipService.ToolTip="Press Enter to send message."/>
                 </Button.Content>
             </Button>
 
-            <ToggleButton x:ConnectionId='6' x:Name="UserSwitchButton" Grid.Column="2"                               
-                          Style="{StaticResource DefaultToggleButtonStyle}">
+            <ToggleButton x:ConnectionId='7' x:Name="UserSwitchButton" Grid.Column="2"                               
+                          Style="{StaticResource DefaultToggleButtonStyle}"
+                          IsChecked="True">
                 <ToggleButton.Content>
-                    <FontIcon Glyph="&#xE748;" Foreground="White"
+                    <FontIcon Glyph="&#xE748;" 
                               ToolTipService.ToolTip="Ctrl + S to switch user."/>
                 </ToggleButton.Content>
                 <ToggleButton.KeyboardAccelerators>

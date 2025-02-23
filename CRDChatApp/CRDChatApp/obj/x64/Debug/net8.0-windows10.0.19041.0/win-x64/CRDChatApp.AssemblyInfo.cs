@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRDChatApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5555e0b23e2a07361e4215e98174db42806ddcaf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdcefc866745b5d89570a8ac3669ae6e2929b7dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRDChatApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRDChatApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

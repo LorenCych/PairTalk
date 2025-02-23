@@ -14,7 +14,7 @@
         <DesktopAcrylicBackdrop />
     </Window.SystemBackdrop>
 
-    <Grid MaxWidth="750">
+    <Grid MaxWidth="750" x:Name="MainAppPage">
         <!-- Define Rows and Columns -->
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -82,7 +82,8 @@
 
                 <Button.Flyout>
                     <MenuFlyout>
-                        <RadioMenuFlyoutItem Text="Light Mode" GroupName="AppTheme">
+                        <RadioMenuFlyoutItem x:Name ="RadioLightMode" Text="Light Mode" GroupName="AppTheme"
+                                             IsChecked="False" Click="AppTheme_Click">
                             <RadioMenuFlyoutItem.Icon>
                                 <FontIcon Glyph="&#xE793;"/>
                             </RadioMenuFlyoutItem.Icon>
@@ -90,7 +91,8 @@
                                 <KeyboardAccelerator Key="L" Modifiers="Control"/>
                             </RadioMenuFlyoutItem.KeyboardAccelerators>
                         </RadioMenuFlyoutItem>
-                        <RadioMenuFlyoutItem Text="Dark Mode" GroupName="AppTheme">
+                        <RadioMenuFlyoutItem x:Name="RadioDarkMode" Text="Dark Mode" GroupName="AppTheme"
+                                             IsChecked="True" Click="AppTheme_Click">
                             <RadioMenuFlyoutItem.Icon>
                                 <FontIcon Glyph="&#xEC46;"/>
                             </RadioMenuFlyoutItem.Icon>
@@ -101,15 +103,14 @@
                         <MenuFlyoutSeparator/>
                         <MenuFlyoutItem Text="Set Profiles">
                             <MenuFlyoutItem.Icon>
-                                <FontIcon Glyph="&#xE72D;"/>
+                                <FontIcon Glyph="&#xE77B;"/>
                             </MenuFlyoutItem.Icon>
-                            <MenuFlyoutItem.KeyboardAccelerators>
-                                <KeyboardAccelerator Key="Delete" />
-                            </MenuFlyoutItem.KeyboardAccelerators>
                         </MenuFlyoutItem>
-                        <MenuFlyoutSeparator/>
-                        <MenuFlyoutItem Text="Rename"/>
-                        <MenuFlyoutItem Text="Select"/>
+                        <MenuFlyoutItem x:Name="BtnClearChat" Text="Clear Chat" Click="BtnClearChat_Click">
+                            <MenuFlyoutItem.Icon>
+                                <FontIcon Glyph="&#xECC9;"/>
+                            </MenuFlyoutItem.Icon>
+                        </MenuFlyoutItem>
                     </MenuFlyout>
                 </Button.Flyout>
 
@@ -176,9 +177,10 @@
             </Button>
 
             <ToggleButton x:Name="UserSwitchButton" Grid.Column="2" Click="UserSwitchButton_Click"
-                          Style="{StaticResource DefaultToggleButtonStyle}">
+                          Style="{StaticResource DefaultToggleButtonStyle}"
+                          IsChecked="True">
                 <ToggleButton.Content>
-                    <FontIcon Glyph="&#xE748;" Foreground="White"
+                    <FontIcon Glyph="&#xE748;" 
                               ToolTipService.ToolTip="Ctrl + S to switch user."/>
                 </ToggleButton.Content>
                 <ToggleButton.KeyboardAccelerators>

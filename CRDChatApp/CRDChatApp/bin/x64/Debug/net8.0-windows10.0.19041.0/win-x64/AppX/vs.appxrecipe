@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-02-21T12:55:10.502</Modified>
+      <Modified>2025-02-23T15:09:06.759</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-02-21T12:05:14.849</Modified>
+      <Modified>2025-02-23T15:09:04.774</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CRDChatApp.runtimeconfig.json">
       <PackagePath>CRDChatApp.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CRDChatApp.dll">
       <PackagePath>CRDChatApp.dll</PackagePath>
-      <Modified>2025-02-21T12:55:08.968</Modified>
+      <Modified>2025-02-23T15:09:02.884</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>CRDChatApp.exe</PackagePath>
-      <Modified>2025-02-21T12:55:09.023</Modified>
+      <Modified>2025-02-23T15:09:03.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\loren\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x64\native\WebView2Loader.dll">
       <PackagePath>runtimes\win-x64\native\WebView2Loader.dll</PackagePath>

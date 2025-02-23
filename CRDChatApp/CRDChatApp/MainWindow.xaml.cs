@@ -205,7 +205,7 @@ namespace CRDChatApp
 				{
 					messageBorder.BorderBrush = (Brush)Application.Current.Resources["AccentFillColorDefaultBrush"];
 					messageBorder.Background = (Brush)Application.Current.Resources["AccentAcrylicBackgroundFillColorDefaultBrush"]; // Local User background
-					messageText.Foreground = new SolidColorBrush(Microsoft.UI.Colors.White); // Optional text color for Local User
+					messageText.Foreground = (Brush)Application.Current.Resources["TextFillColorPrimaryBrush"]; // Optional text color for Local User
 					messagePanel.HorizontalAlignment = HorizontalAlignment.Right; // Align to the right for Local User
 					messagePanel.Children.Add(messageBorder); // Insert message before avatar
 					messagePanel.Children.Add(avatar); // Insert avatar at the end
@@ -214,7 +214,7 @@ namespace CRDChatApp
 				else if (currentUser == "Remote")
 				{
 					messageBorder.Background = (Brush)Application.Current.Resources["CardBackgroundFillColorDefaultBrush"]; // Remote User background
-					messageText.Foreground = new SolidColorBrush(Microsoft.UI.Colors.White); // Optional text color for Remote User
+					messageText.Foreground = (Brush)Application.Current.Resources["TextFillColorPrimaryBrush"];// Text color for Remote User
 					messagePanel.HorizontalAlignment = HorizontalAlignment.Left; // Align to the left for Remote User
 					messagePanel.Children.Add(avatar); // Add avatar at the start
 					messagePanel.Children.Add(messageBorder); // Add message after avatar
@@ -285,5 +285,33 @@ namespace CRDChatApp
 			}
 		}
 
+		private void AppTheme_Click(object sender, RoutedEventArgs e)
+		{
+			if (RadioLightMode.IsChecked == true)
+			{
+				// Set the application theme to Light
+				MainAppPage.RequestedTheme = ElementTheme.Light;
+				MessagePanel.RequestedTheme = ElementTheme.Light;
+				//Color assets for chat bubble of Remote User
+				//Application.Current.Resources["CardBackgroundFillColorDefaultBrush"] = (Brush)Application.Current.Resources["TextFillColorTertiaryBrush"];
+				//Application.Current.Resources["TextFillColorPrimaryBrush"] = (Brush)Application.Current.Resources["TextFillColorTertiaryBrush"];
+				// Text color for Remote User
+			}
+			else if (RadioDarkMode.IsChecked == true)
+			{
+				// Set the application theme to Dark
+				MainAppPage.RequestedTheme = ElementTheme.Dark;
+				MessagePanel.RequestedTheme = ElementTheme.Dark;
+
+
+			}
+
+		}
+
+
+		private void BtnClearChat_Click(object sender, RoutedEventArgs e)
+		{
+			MessagePanel.Children.Clear();
+		}
 	}
 }
