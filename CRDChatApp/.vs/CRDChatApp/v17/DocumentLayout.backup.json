@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|solutionrelative:crdchatapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|c:\\users\\loren\\onedrive\\desktop\\my_github_repo_collection\\pairtalk\\crdchatapp\\crdchatapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|solutionrelative:crdchatapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|c:\\users\\loren\\onedrive\\desktop\\my_github_repo_collection\\pairtalk\\crdchatapp\\crdchatapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|solutionrelative:crdchatapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|c:\\users\\loren\\onedrive\\desktop\\my_github_repo_collection\\pairtalk\\crdchatapp\\crdchatapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|solutionrelative:crdchatapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|c:\\users\\loren\\onedrive\\desktop\\my_github_repo_collection\\pairtalk\\crdchatapp\\crdchatapp\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}",
@@ -49,13 +49,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\CRDChatApp\\App.xaml",
               "RelativeDocumentMoniker": "CRDChatApp\\App.xaml",
               "ToolTip": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\CRDChatApp\\App.xaml",
               "RelativeToolTip": "CRDChatApp\\App.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-19T08:30:42.886Z",
               "EditorCaption": ""
@@ -66,22 +66,22 @@
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\CRDChatApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "CRDChatApp\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\CRDChatApp\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "CRDChatApp\\MainWindow.xaml.cs*",
-              "ViewState": "AgIAADIBAAAAAAAAAAAwwDkBAAAhAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\CRDChatApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CRDChatApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAxwKAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T12:31:01.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\CRDChatApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "CRDChatApp\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\CRDChatApp\\MainWindow.xaml*",
-              "RelativeToolTip": "CRDChatApp\\MainWindow.xaml*",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAxwGwAAABqAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\CRDChatApp\\MainWindow.xaml",
+              "RelativeToolTip": "CRDChatApp\\MainWindow.xaml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAGwAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-18T12:30:44.167Z",
               "EditorCaption": ""

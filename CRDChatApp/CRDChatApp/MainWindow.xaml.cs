@@ -159,7 +159,7 @@ namespace CRDChatApp
 					avatar.Style = (Style)Application.Current.Resources["ActiveRemoteUserProfileStyle"];
 					avatar.DisplayName = "Lee Juyeon"; // Optionally, set the display name
 					avatar.Margin = new Thickness(5);
-					timestamp.Foreground = new SolidColorBrush(Microsoft.UI.Colors.CornflowerBlue);
+					timestamp.Foreground = new SolidColorBrush(Microsoft.UI.Colors.White);
 				}
 				avatar.Width = 32;
 				avatar.Height = 32;
@@ -213,7 +213,7 @@ namespace CRDChatApp
 				}
 				else if (currentUser == "Remote")
 				{
-					messageBorder.Background = (Brush)Application.Current.Resources["CardBackgroundFillColorDefaultBrush"]; // Remote User background
+					messageBorder.Background = (Brush)Application.Current.Resources["RemoteUserFillBrush"]; // Remote User background
 					messageText.Foreground = (Brush)Application.Current.Resources["TextFillColorPrimaryBrush"];// Text color for Remote User
 					messagePanel.HorizontalAlignment = HorizontalAlignment.Left; // Align to the left for Remote User
 					messagePanel.Children.Add(avatar); // Add avatar at the start

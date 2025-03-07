@@ -16,6 +16,8 @@
             <SolidColorBrush x:Key="LocalUserProfileBackgroundColor" Color="BlueViolet" />
             <SolidColorBrush x:Key="RemoteUserProfileBackgroundColor" Color="OrangeRed" />
             <SolidColorBrush x:Key="InactiveUserProfileBackgroundColor" Color="DarkSlateGray" />
+            <SolidColorBrush x:Key="RemoteUserFillBrush" Color="#4D000000"/>
+            <!--Recommedned Color (Brush)Application.Current.Resources["CardBackgroundFillColorDefaultBrush"]; // Remote User background-->
 
             <!-- Define the style for PersonPicture -->
             <!-- Define the style for PersonPicture -->
