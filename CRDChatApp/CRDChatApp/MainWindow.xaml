@@ -101,7 +101,7 @@
                             </RadioMenuFlyoutItem.KeyboardAccelerators>
                         </RadioMenuFlyoutItem>
                         <MenuFlyoutSeparator/>
-                        <MenuFlyoutItem Text="Set Profiles">
+                        <MenuFlyoutItem Text="Set Profiles" Click="SetProfile_Click">
                             <MenuFlyoutItem.Icon>
                                 <FontIcon Glyph="&#xE77B;"/>
                             </MenuFlyoutItem.Icon>
@@ -134,12 +134,12 @@
             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
             <PersonPicture
             x:Name="RemoteUserProfile"
-            DisplayName="Lee Juyeon"
+            DisplayName="{x:Bind RemoteUserAvaName}"
             Style="{StaticResource InactiveRemoteUserProfileStyle}" />
 
             <PersonPicture
             x:Name="LocalUserProfile"
-            DisplayName="Kim Younghoon"
+            DisplayName="{x:Bind LocalUserAvaName}"
             Style="{StaticResource ActiveLocalUserProfileStyle}" />
             </StackPanel>
         </Grid>

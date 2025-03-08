@@ -1,0 +1,14 @@
+﻿<ContentDialog x:ConnectionId='1'
+    x:Class="CRDChatApp.GetUserNames"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Enter User Names"
+    PrimaryButtonText="OK"                                                      
+    SecondaryButtonText="Cancel">
+    <StackPanel>
+        <TextBox x:ConnectionId='2' x:Name="LocalUserTextBox" Header="Local User Name" Margin="0,0,0,10"/>
+        <TextBox x:ConnectionId='3' x:Name="RemoteUserTextBox" Header="Remote User Name" Margin="0,0,0,20"/>
+    </StackPanel>
+</ContentDialog>
+
+

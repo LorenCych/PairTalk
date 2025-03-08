@@ -21,6 +21,7 @@ using Windows.Graphics;
 using System.Runtime.InteropServices;
 using WinRT.Interop;
 using Microsoft.UI.Text;
+using System.Threading.Tasks;
 
 
 
@@ -38,6 +39,8 @@ namespace CRDChatApp
 		private string currentUser = "Local"; // Default to local user
 		private bool autoScroll = true; // Track if auto-scroll is enabled
 		private AppWindowTitleBar titleBar;
+		private string RemoteUserAvaName = "Remote User"; //Default Name
+		private string LocalUserAvaName = "Local User"; //Default Name
 
 		public MainWindow()
 		{
@@ -60,6 +63,37 @@ namespace CRDChatApp
 			TitleBarTextBlock.Text = this.Title;
 
 			DisableMaximizeButton();
+
+			GetUserNamesAsync();
+		}
+
+		private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
+		{
+			await GetUserNamesAsync();
+		}
+
+		private async Task GetUserNamesAsync()
+		{
+			GetUserNames userInputDialog = new GetUserNames();
+
+			// Ensure XamlRoot is set correctly
+			userInputDialog.XamlRoot = this.Content.XamlRoot;
+
+			var result = await userInputDialog.ShowAsync();
+
+			if (result == ContentDialogResult.Primary)
+			{
+				LocalUserAvaName = userInputDialog.LocalUserName;
+				RemoteUserAvaName = userInputDialog.RemoteUserName;
+			}
+
+			BindUserNames();
+		}
+
+		private void BindUserNames()
+		{
+			LocalUserProfile.DisplayName = LocalUserAvaName;
+			RemoteUserProfile.DisplayName = RemoteUserAvaName;
 		}
 
 		private const int GWL_STYLE = -16;
@@ -80,7 +114,6 @@ namespace CRDChatApp
 			SetWindowLong(hWnd, GWL_STYLE, windowStyle);
 		}
 
-
 		private void InitializeCustomTitleBar()
 		{
 			var window = this;
@@ -89,7 +122,6 @@ namespace CRDChatApp
 			titleBar.ButtonBackgroundColor = Microsoft.UI.Colors.Transparent;
 			titleBar.ButtonInactiveBackgroundColor = Microsoft.UI.Colors.Transparent;
 		}
-
 
 		private void PinToggleButton_Checked(object sender, RoutedEventArgs e)
 		{
@@ -150,14 +182,14 @@ namespace CRDChatApp
 				if (currentUser == "Local")
 				{
 					avatar.Style = (Style)Application.Current.Resources["ActiveLocalUserProfileStyle"];
-					avatar.DisplayName = "Kim Younghoon"; // Optionally, set the display name
+					avatar.DisplayName = LocalUserAvaName;
 					avatar.Margin = new Thickness(5);
 					timestamp.Foreground = new SolidColorBrush(Microsoft.UI.Colors.DeepSkyBlue);
 				}
-				else
+				else //For Remote User
 				{
 					avatar.Style = (Style)Application.Current.Resources["ActiveRemoteUserProfileStyle"];
-					avatar.DisplayName = "Lee Juyeon"; // Optionally, set the display name
+					avatar.DisplayName = RemoteUserAvaName;
 					avatar.Margin = new Thickness(5);
 					timestamp.Foreground = new SolidColorBrush(Microsoft.UI.Colors.White);
 				}
@@ -312,6 +344,11 @@ namespace CRDChatApp
 		private void BtnClearChat_Click(object sender, RoutedEventArgs e)
 		{
 			MessagePanel.Children.Clear();
+		}
+
+		private void SetProfile_Click(object sender, RoutedEventArgs e)
+		{
+			GetUserNamesAsync();
 		}
 	}
 }

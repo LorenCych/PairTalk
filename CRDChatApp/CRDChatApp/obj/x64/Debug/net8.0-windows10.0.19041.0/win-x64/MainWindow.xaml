@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Window
+<Window x:ConnectionId='1'
     x:Class="CRDChatApp.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -61,7 +61,7 @@
                           Width="36"
                           Height="36">
                 <ToggleButton.Content>
-                    <FontIcon x:ConnectionId='27'
+                    <FontIcon x:ConnectionId='28'
                        x:Name="PinIcon"
                        Glyph="&#xE718;"
                        FontSize="12"
@@ -101,12 +101,12 @@
                             </RadioMenuFlyoutItem.KeyboardAccelerators>
                         </RadioMenuFlyoutItem>
                         <MenuFlyoutSeparator/>
-                        <MenuFlyoutItem Text="Set Profiles">
+                        <MenuFlyoutItem x:ConnectionId='26' Text="Set Profiles"                         >
                             <MenuFlyoutItem.Icon>
                                 <FontIcon Glyph="&#xE77B;"/>
                             </MenuFlyoutItem.Icon>
                         </MenuFlyoutItem>
-                        <MenuFlyoutItem x:ConnectionId='26' x:Name="BtnClearChat" Text="Clear Chat"                           >
+                        <MenuFlyoutItem x:ConnectionId='27' x:Name="BtnClearChat" Text="Clear Chat"                           >
                             <MenuFlyoutItem.Icon>
                                 <FontIcon Glyph="&#xECC9;"/>
                             </MenuFlyoutItem.Icon>
@@ -134,12 +134,12 @@
             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
             <PersonPicture x:ConnectionId='9'
             x:Name="RemoteUserProfile"
-            DisplayName="Lee Juyeon"
+                                                    
             Style="{StaticResource InactiveRemoteUserProfileStyle}" />
 
             <PersonPicture x:ConnectionId='10'
             x:Name="LocalUserProfile"
-            DisplayName="Kim Younghoon"
+                                                   
             Style="{StaticResource ActiveLocalUserProfileStyle}" />
             </StackPanel>
         </Grid>

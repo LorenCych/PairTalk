@@ -501,3 +501,8 @@ C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CR
 C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ProjectArchitectures.txt
+C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GetUserNames.xbf
+C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GetUserNames.g.i.cs
+C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GetUserNames.g.cs
+C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GetUserNames.xaml
+C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GetUserNames.xbf
