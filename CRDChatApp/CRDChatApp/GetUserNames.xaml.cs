@@ -36,6 +36,13 @@ namespace CRDChatApp
 		{
 			LocalUserName = LocalUserTextBox.Text;
 			RemoteUserName = RemoteUserTextBox.Text;
+			CallClearChat();
+		}
+
+		private void CallClearChat()
+		{
+			// Access the singleton instance of MainWindow
+			MainWindow.Instance.ClearChat();
 		}
 	}
 }

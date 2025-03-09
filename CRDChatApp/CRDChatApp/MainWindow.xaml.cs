@@ -22,6 +22,7 @@ using System.Runtime.InteropServices;
 using WinRT.Interop;
 using Microsoft.UI.Text;
 using System.Threading.Tasks;
+using System.ComponentModel;
 
 
 
@@ -41,10 +42,14 @@ namespace CRDChatApp
 		private AppWindowTitleBar titleBar;
 		private string RemoteUserAvaName = "Remote User"; //Default Name
 		private string LocalUserAvaName = "Local User"; //Default Name
+		private static MainWindow instance;
 
+		// Singleton Instance
+		public static MainWindow Instance => instance ?? (instance = new MainWindow());
 		public MainWindow()
 		{
 			this.InitializeComponent();
+			instance = this;
 
 			// Extend content into title bar
 			ExtendsContentIntoTitleBar = true;
@@ -74,21 +79,39 @@ namespace CRDChatApp
 
 		private async Task GetUserNamesAsync()
 		{
-			GetUserNames userInputDialog = new GetUserNames();
-
-			// Ensure XamlRoot is set correctly
-			userInputDialog.XamlRoot = this.Content.XamlRoot;
-
-			var result = await userInputDialog.ShowAsync();
-
+			var result = await ShowClearChatWarningAsync();
 			if (result == ContentDialogResult.Primary)
 			{
-				LocalUserAvaName = userInputDialog.LocalUserName;
-				RemoteUserAvaName = userInputDialog.RemoteUserName;
-			}
+				GetUserNames userInputDialog = new GetUserNames
+				{
+					XamlRoot = this.Content.XamlRoot // Set XamlRoot property
+				};
 
-			BindUserNames();
+				var userInputResult = await userInputDialog.ShowAsync();
+
+				if (userInputResult == ContentDialogResult.Primary)
+				{
+					LocalUserAvaName = userInputDialog.LocalUserName;
+					RemoteUserAvaName = userInputDialog.RemoteUserName;
+					ClearChat();
+				}
+			}
 		}
+
+		private async Task<ContentDialogResult> ShowClearChatWarningAsync()
+		{
+			var dialog = new ContentDialog
+			{
+				Title = "Change User Profiles",
+				Content = "Changing the user profiles will clear the chat. Do you want to continue?",
+				PrimaryButtonText = "Yes",
+				SecondaryButtonText = "No",
+				XamlRoot = this.Content.XamlRoot // Set XamlRoot property
+			};
+
+			return await dialog.ShowAsync();
+		}
+
 
 		private void BindUserNames()
 		{
@@ -196,7 +219,6 @@ namespace CRDChatApp
 				avatar.Width = 32;
 				avatar.Height = 32;
 
-
 				// Create a Border for the background
 				Border messageBorder = new Border
 				{
@@ -222,8 +244,6 @@ namespace CRDChatApp
 					IsTextSelectionEnabled = true,
 					SelectionHighlightColor = new SolidColorBrush(Microsoft.UI.Colors.DarkOrange)
 				};
-
-			
 
 				// Add the message text and timestamp to the vertical StackPanel
 				messageContentPanel.Children.Add(messageText);
@@ -340,8 +360,12 @@ namespace CRDChatApp
 
 		}
 
-
 		private void BtnClearChat_Click(object sender, RoutedEventArgs e)
+		{
+			ClearChat();
+		}
+
+		public void ClearChat()
 		{
 			MessagePanel.Children.Clear();
 		}
