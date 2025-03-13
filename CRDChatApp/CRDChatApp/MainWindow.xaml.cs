@@ -94,6 +94,7 @@ namespace CRDChatApp
 					LocalUserAvaName = userInputDialog.LocalUserName;
 					RemoteUserAvaName = userInputDialog.RemoteUserName;
 					ClearChat();
+					BindUserNames();
 				}
 			}
 		}

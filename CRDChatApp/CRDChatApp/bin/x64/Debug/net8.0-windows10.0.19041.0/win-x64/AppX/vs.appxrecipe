@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-03-09T09:45:32.095</Modified>
+      <Modified>2025-03-13T14:29:15.497</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CRDChatApp.dll">
       <PackagePath>CRDChatApp.dll</PackagePath>
-      <Modified>2025-03-09T09:45:29.346</Modified>
+      <Modified>2025-03-13T14:28:59.173</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\loren\OneDrive\Desktop\My_GIthub_Repo_Collection\PairTalk\CRDChatApp\CRDChatApp\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>CRDChatApp.exe</PackagePath>
-      <Modified>2025-03-09T09:45:29.471</Modified>
+      <Modified>2025-03-13T14:29:07.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\loren\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x64\native\WebView2Loader.dll">
       <PackagePath>runtimes\win-x64\native\WebView2Loader.dll</PackagePath>

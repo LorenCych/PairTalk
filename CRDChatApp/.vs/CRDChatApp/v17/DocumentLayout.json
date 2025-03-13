@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|c:\\users\\loren\\onedrive\\desktop\\my_github_repo_collection\\pairtalk\\crdchatapp\\crdchatapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|solutionrelative:crdchatapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|c:\\users\\loren\\onedrive\\desktop\\my_github_repo_collection\\pairtalk\\crdchatapp\\crdchatapp\\getusernames.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|solutionrelative:crdchatapp\\getusernames.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|c:\\users\\loren\\onedrive\\desktop\\my_github_repo_collection\\pairtalk\\crdchatapp\\crdchatapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|solutionrelative:crdchatapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|c:\\users\\loren\\onedrive\\desktop\\my_github_repo_collection\\pairtalk\\crdchatapp\\crdchatapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|solutionrelative:crdchatapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|c:\\users\\loren\\onedrive\\desktop\\my_github_repo_collection\\pairtalk\\crdchatapp\\crdchatapp\\getusernames.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|solutionrelative:crdchatapp\\getusernames.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|c:\\users\\loren\\onedrive\\desktop\\my_github_repo_collection\\pairtalk\\crdchatapp\\crdchatapp\\getusernames.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|solutionrelative:crdchatapp\\getusernames.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AAB36FF-82FD-41E9-B36B-12476FDCB958}|CRDChatApp\\CRDChatApp.csproj|c:\\users\\loren\\onedrive\\desktop\\my_github_repo_collection\\pairtalk\\crdchatapp\\crdchatapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 60,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,19 +42,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetUserNames.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\CRDChatApp\\GetUserNames.xaml.cs",
-              "RelativeDocumentMoniker": "CRDChatApp\\GetUserNames.xaml.cs",
-              "ToolTip": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\CRDChatApp\\GetUserNames.xaml.cs",
-              "RelativeToolTip": "CRDChatApp\\GetUserNames.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwC0AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T09:15:48.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\CRDChatApp\\App.xaml",
@@ -63,25 +50,24 @@
               "RelativeToolTip": "CRDChatApp\\App.xaml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-19T08:30:42.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T08:30:42.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\CRDChatApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "CRDChatApp\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\CRDChatApp\\MainWindow.xaml.cs",
               "RelativeToolTip": "CRDChatApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAwFQAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAzwGAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T12:31:01.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "GetUserNames.xaml",
               "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\CRDChatApp\\GetUserNames.xaml",
               "RelativeDocumentMoniker": "CRDChatApp\\GetUserNames.xaml",
@@ -94,15 +80,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\CRDChatApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "CRDChatApp\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\CRDChatApp\\MainWindow.xaml",
               "RelativeToolTip": "CRDChatApp\\MainWindow.xaml",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAAAI0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-18T12:30:44.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetUserNames.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\CRDChatApp\\GetUserNames.xaml.cs",
+              "RelativeDocumentMoniker": "CRDChatApp\\GetUserNames.xaml.cs",
+              "ToolTip": "C:\\Users\\loren\\OneDrive\\Desktop\\My_GIthub_Repo_Collection\\PairTalk\\CRDChatApp\\CRDChatApp\\GetUserNames.xaml.cs",
+              "RelativeToolTip": "CRDChatApp\\GetUserNames.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwC0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T09:15:48.035Z",
               "EditorCaption": ""
             }
           ]
